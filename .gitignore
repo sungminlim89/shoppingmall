@@ -5,3 +5,8 @@
 .env
 .idea/modules.xml
 .idea/vcs.xml
+
+.editorconfig
+.env.example
+.gitattributes
+.styleci.yml
