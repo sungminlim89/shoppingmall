@@ -44,4 +44,10 @@ return [
         ],
     ],
 
+    'google' => [
+        'client_id' => '858864992329-spn426r6akqc4bqrvo0e2mkrtm6r47ab.apps.googleusercontent.com',
+        'client_secret' => 'N97KnJhNpvnm7fY5OO6wphAk',
+        'redirect' => 'https://sungminlim.gq/auth/google/clallback',
+    ],
+
 ];

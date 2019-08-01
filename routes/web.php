@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::group(['prefix' => 'auth', 'as' => 'session.'], function() {
+    /* Social Login */
+    Route::get('google', [
+       'as' => 'google.login',
+       'uses' => 'Auth\AuthController@redirectToProvider'
+    ]);
+    Route::get('google/callback', [
+       'as' => 'google.callback',
+       'uses' => 'Auth\AuthController@handleProviderCallBack'
+    ]);
+});
