@@ -3896,6 +3896,100 @@
         "homepage": "https://github.com/sebastianbergmann/version"
     },
     {
+        "name": "socialiteproviders/google",
+        "version": "v3.0.0",
+        "version_normalized": "3.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/SocialiteProviders/Google-Plus.git",
+            "reference": "2ff6bbd2f4d616ece912386807b59ba5f3b76895"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/SocialiteProviders/Google-Plus/zipball/2ff6bbd2f4d616ece912386807b59ba5f3b76895",
+            "reference": "2ff6bbd2f4d616ece912386807b59ba5f3b76895",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.6 || ^7.0",
+            "socialiteproviders/manager": "~3.0"
+        },
+        "time": "2017-01-25T09:48:29+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SocialiteProviders\\Google\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Brian Faust",
+                "email": "hello@brianfaust.de"
+            }
+        ],
+        "description": "Google OAuth2 Provider for Laravel Socialite"
+    },
+    {
+        "name": "socialiteproviders/manager",
+        "version": "v3.3.7",
+        "version_normalized": "3.3.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/SocialiteProviders/Manager.git",
+            "reference": "4c509ae86e133125f4db084446aecbb9eb331858"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/SocialiteProviders/Manager/zipball/4c509ae86e133125f4db084446aecbb9eb331858",
+            "reference": "4c509ae86e133125f4db084446aecbb9eb331858",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/support": "~5.4|~5.7.0|~5.8.0",
+            "laravel/socialite": "~3.0|~4.0",
+            "php": "^5.6 || ^7.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "^0.9.4",
+            "phpunit/phpunit": "^5.0"
+        },
+        "time": "2019-07-02T10:24:56+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "SocialiteProviders\\Manager\\ServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SocialiteProviders\\Manager\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Andy Wendt",
+                "email": "andy@awendt.com"
+            },
+            {
+                "name": "Anton Komarev",
+                "email": "a.komarev@cybercog.su"
+            }
+        ],
+        "description": "Easily add new or override built-in providers in Laravel Socialite."
+    },
+    {
         "name": "swiftmailer/swiftmailer",
         "version": "v6.2.1",
         "version_normalized": "6.2.1.0",

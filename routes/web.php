@@ -26,3 +26,7 @@ Route::group(['prefix' => 'auth', 'as' => 'session.'], function() {
        'uses' => 'Auth\AuthController@handleProviderCallBack'
     ]);
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
