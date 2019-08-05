@@ -11,22 +11,22 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
+Route::any('/', function () {
+    return View::make('main.list');
 });
-
-Route::group(['prefix' => 'auth', 'as' => 'session.'], function() {
-    /* Social Login */
-    Route::get('google', [
-       'as' => 'google.login',
-       'uses' => 'Auth\AuthController@redirectToProvider'
-    ]);
-    Route::get('google/callback', [
-       'as' => 'google.callback',
-       'uses' => 'Auth\AuthController@handleProviderCallBack'
-    ]);
-});
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+//
+//Route::group(['prefix' => 'auth', 'as' => 'session.'], function() {
+//    /* Social Login */
+//    Route::get('google', [
+//       'as' => 'google.login',
+//       'uses' => 'Auth\AuthController@redirectToProvider'
+//    ]);
+//    Route::get('google/callback', [
+//       'as' => 'google.callback',
+//       'uses' => 'Auth\AuthController@handleProviderCallBack'
+//    ]);
+//});
+//
+//Auth::routes();
+//
+//Route::get('/home', 'HomeController@index')->name('home');
