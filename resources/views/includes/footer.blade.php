@@ -170,7 +170,7 @@
                     <div data-v-5d95572c="" class="row-fluid">
                         <div data-v-5d95572c="" class="span16 flex-straight">
                             <ul data-v-5d95572c="" class="nav copyright">
-                                <li data-v-5d95572c="">© 2019 ssense.com</li>
+                                <li data-v-5d95572c="">© 2019 sungminim.gq</li>
                                 <li data-v-5d95572c="" class="hidden-tablet-landscape"><a data-v-5d95572c=""
                                                                                           href="/en-jp/terms-conditions"
                                                                                           class="">

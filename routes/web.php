@@ -11,9 +11,7 @@
 |
 */
 
-Route::any('/', function () {
-    return View::make('main.list');
-});
+Route::any('/', 'ListController@show');
 //
 //Route::group(['prefix' => 'auth', 'as' => 'session.'], function() {
 //    /* Social Login */

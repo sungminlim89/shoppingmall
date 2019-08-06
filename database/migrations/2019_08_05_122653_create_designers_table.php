@@ -17,6 +17,7 @@ class CreateDesignersTable extends Migration
             $table->engine = 'InnoDB';
             $table->bigIncrements('id');
             $table->string('name', 255)->nullable();
+            $table->tinyInteger('gender')->nullable();
             $table->timestamps();
             $table->integer('is_deleted')->default(0)->nullable();
         });
